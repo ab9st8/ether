@@ -15,3 +15,6 @@ where `dirname` is the name of the directory you want to serve and `port` is the
 Keep in mind that routes will be adjusted to the directory from which the directory is passed, for example `ether dir` will serve all files from the `dir` directory on the `/` route, but `ether ./dir` will serve all files from the `dir` directory on the `/dir/` route. This is probably unwanted and could lead to bugs, but no one has time or desire to test for that.
 
 Acknowledgements: thank you to [flywind](https://github.com/xflywind) for making [Prologue](https://github.com/planety/prologue), the definitive Nim networking library, and for helping me find a closure-related bug!
+
+---
+Licensed under the [Unlicense](https://unlicense.org/) + [HAD](https://github.com/c1m5j/have-an-awesome-day).
